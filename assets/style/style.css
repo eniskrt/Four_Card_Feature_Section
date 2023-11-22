@@ -16,16 +16,16 @@ body{
     max-width: 1050px;
 }
 .card.cyan{
-    border-top: 5px solid var(--primary-cyan);
+    border-top: 3px solid var(--primary-cyan);
 }
 .card.red{
-    border-top: 5px solid var(--primary-red);
+    border-top: 3px solid var(--primary-red);
 }
 .card.orange{
-    border-top: 5px solid var(--primary-orange);
+    border-top: 3px solid var(--primary-orange);
 }
 .card.blue{
-    border-top: 5px solid var(--primary-blue);
+    border-top: 3px solid var(--primary-blue);
 }
 p{
     color: var(--neutral-grayish-blue)!important;
