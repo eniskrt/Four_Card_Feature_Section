@@ -1,0 +1,33 @@
+:root{
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan:hsl(180, 62%, 55%);
+    --primary-orange:hsl(34, 97%, 64%);
+    --primary-blue:hsl(212, 86%, 64%);
+    --neutral-very-dark-blue:hsl(234, 12%, 34%);
+    --neutral-grayish-blue:hsl(229, 6%, 66%);
+    --neutral-vey-light-gray:hsl(0, 0%, 98%);
+}
+body{
+    min-height: 100vh;
+    background-color: var(--neutral-vey-light-gray);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1050px;
+}
+.card.cyan{
+    border-top: 5px solid var(--primary-cyan);
+}
+.card.red{
+    border-top: 5px solid var(--primary-red);
+}
+.card.orange{
+    border-top: 5px solid var(--primary-orange);
+}
+.card.blue{
+    border-top: 5px solid var(--primary-blue);
+}
+p{
+    color: var(--neutral-grayish-blue)!important;
+    font-size: 0.8rem;
+}
